@@ -67,7 +67,7 @@
 #     print("It's not a armstrong number")
     
 
-Star pattern 1
+# Star pattern 1
 
 # *
 # **
@@ -77,4 +77,67 @@ Star pattern 1
 # ******
 
 
-number_of_raws=int(input("Enter a number of raw:  "))
+# number_of_raws=int(input("Enter a number of raw:  "))
+# for i in range(number_of_raws):
+#     for j in range(i+1):
+#         print("*", end="")
+#     print()
+
+# Star Pattern 2:
+
+#      *
+#     **
+#    ***
+#   ****
+#  *****
+# ******
+
+# number_of_raws=int(input("Enter a number of raw:  "))
+# for i in range(1,number_of_raws+1):
+#     print(" "*(number_of_raws-i), end="")
+#     print("*"*i)
+
+# number_of_raws=int(input("Enter a number of raw:  "))
+# for i in range(number_of_raws):
+#     for j in range(number_of_raws-i-1):
+#         print(" ",end="")
+#     for k in range(i+1):
+#         print("*",end="")
+#     print()
+
+
+# Star pattern 3
+
+# * 
+#  *
+#   *
+#    *
+#     *
+
+# n =int(input("Enter a number of raws: "))
+# for i in range(n):
+#     print(" "*i,end="")
+#     print("*",end="")
+#     print()
+
+# Star pattern 4
+
+#     *
+#    ***
+#   *****
+#  *******
+# *********
+
+# n=int(input("Enter the number of raws: "))
+# for i in range(n):
+#     for j in range(1,n-i):
+#         print(" ",end="")
+#     for k in range(2*i+1):
+#         print("*",end="")
+#     print()
+
+
+# n=int(input("Enter the number of raws: "))
+# for i in range(n):
+#     print(" "*(n-i-1),end="")
+#     print("*"*(2*i+1))
