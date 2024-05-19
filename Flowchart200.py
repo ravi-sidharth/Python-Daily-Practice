@@ -323,14 +323,14 @@
 
 
 # Initialize variables to store the numbers
-number1 ,number2 , number3 =  map(int,input("Enter three numbers separated by spaces: "))
+# number1 ,number2 , number3 =  map(int,input("Enter three numbers separated by spaces: "))
 
-if number1>number2 and number1>number3:
-  print(number1)
-elif number2>number3:
-  print(number2)
-else:
-  print(number3)
+# if number1>number2 and number1>number3:
+#   print(number1)
+# elif number2>number3:
+#   print(number2)
+# else:
+#   print(number3)
 
 
 
