@@ -332,14 +332,34 @@
 # else:
 #   print(number3)
 
+# sum=0
+# n=int(input("Enter a number: "))
+# for i in range(n+1):
+#     sum+=i
+# print(sum)
 
 
+# n=int(input("Enter a number: "))
+
+# count=0
+# for i in range(1,n+1):
+#     if(n%i==0): 
+#         count+=1
+    
+# if (count==2):
+#     print("It's a prime number")
+# else:
+#     print("It's not a prime number")
+
+
+
+    
 
   
 
 
 
-   
+
 
 
 

@@ -141,3 +141,29 @@
 # for i in range(n):
 #     print(" "*(n-i-1),end="")
 #     print("*"*(2*i+1))
+ 
+# n = int(input("Enter a number: "))  # Prompting user to enter the number
+# rev = 0  # Initializing the reversed number to 0
+
+# # Calculate the number of digits in the number
+# num_digits = len(str(n))
+
+# for i in range(num_digits):
+#     remain = n % 10  # Getting the last digit of n
+#     rev = rev * 10 + remain  # Adding the last digit to the reversed number
+#     n = n // 10  # Removing the last digit from n
+
+# print(rev)  # Printing the reversed number
+
+
+
+# n=int(input("enter a number of terms: "))
+
+# rev=0
+# # k=len(str(n))
+
+# for i in range (len(str(n))):
+#     remain=n%10
+#     rev=rev*10+remain   #yha multiply by 10 ke karan 0 bar bar repeat ho rha h 
+#     n=n//10
+# print(rev)
